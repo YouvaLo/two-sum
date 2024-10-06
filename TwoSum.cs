@@ -7,7 +7,10 @@ public class Solution
         //Declare an empty array
         int[] indexesTab = {}; 
 
-        //Comparer l'élement i avec tous les élements j  
+        /*
+	   Find two indices i and j in the 'nums' array whose sum is equal to 'target' 
+	   and store the indices in 'indexesTab'.
+	*/
         for(int i = 0; i<(nums.Length-1); i++) 
         {
             for(int j = i+1; j<(nums.Length); j++)
